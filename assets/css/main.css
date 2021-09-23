@@ -1,0 +1,126 @@
+@import url("font-awesome.min.css");
+@import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
+html {
+	background: #f8f8f8;
+}
+
+.Form {
+	background: #FFFFFF;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1024px;
+	height: 768px;
+}
+.body
+{
+	background-color: #f8f8f8;
+} 
+
+.container
+{
+	margin-left: calc(50% - 481px/2 + 0.5px);
+	margin-right: auto;
+	width: 481px;
+	height: 392px;
+	left: 272px;
+	top: 31px;
+	filter: drop-shadow(5px 5px 15px rgba(0, 0, 0, 0.25));
+	border-radius: 20px;
+	background-color: #F7F5F9;
+	
+}
+
+form input[type="text"], form input[type="nameForm"], form input[type="mobile"], form input[type="email"], form select, form textarea {
+	display: flex;
+	align-items: center;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 20px;
+	width: 401px;
+	height: 48px;
+	border: 1px solid #854FC8;
+	border-radius: 0.35em;
+	box-shadow: inset 0 0.1em 0.1em 0 rgba(0, 0, 0, 0.05);
+	display: block;
+	left: calc(50% - 401px/2 + 0.5px);
+	
+	position: relative;
+	transition: all 0.35s ease-in-out;
+	/* Color/Neutral/6 - White */
+	background: #FFFFFF;
+	/* Dropshadow 1 */
+	box-shadow: 0px 7px 64px rgba(0, 0, 0, 0.07);
+	border-radius: 6px;
+}
+
+form input[type="text"]:focus, form input[type="nameForm"]:focus, form input[type="mobile"]:focus, form input[type="email"]:focus, form select:focus, form textarea:focus
+{
+	background: #fff;
+	border: 1px solid #854FC8;
+	/* Dropshadow 1 */
+	box-shadow: 0px 7px 64px rgba(0, 0, 0, 0.07);
+
+}
+
+
+input[type="button"], input[type="submit"], input[type="message"], button, .button
+{
+	margin-left: calc(50% - 401px/2 + 0.5px);
+	
+	background-color: #6979F8;;
+	border: 0;
+	border-radius: 0.35em;
+	color: #fff !important;
+	cursor: pointer;
+	display: inline-block;
+	moz-transition: background-color 0.35s ease-in-out;
+	ms-transition: background-color 0.35s ease-in-out;
+	padding: 0.75em 2.5em 0.75em 2.5em;
+	text-decoration: none;
+	transition: background-color 0.35s ease-in-out;
+	webkit-transition: background-color 0.35s ease-in-out; 
+	/* Color/Accent/1 - Blue */
+	background: #6979F8;
+	border-radius: 6px;
+	width: 401px;
+	height: 48px;
+}
+input[type="button"]:active, input[type="submit"]:active, input[type="message"]:active, button:active, .button:active
+{
+	border: 1px solid #854FC8;
+}
+.mobile {
+	margin-top: calc(50% - 48px/2 - 190px);
+
+}
+.nameForm {
+	margin-top: calc(50% - 48px/2 - 195px);
+
+}
+.email {
+	margin-top: calc(50% - 48px/2 - 190px);
+}
+
+.submit {	
+	left: calc(50% - 401px/2 + 0.5px);
+	margin-top: calc(50% - 48px/2 - 195px);
+
+}
+.text1 {
+	font-family: Roboto;
+	margin-left: calc(50% - 168px/2 - 116px);
+	padding-top: 40px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 20px;
+	/* identical to box height, or 83% */
+	display: flex;
+	align-items: center;
+	color: #3B3D43;
+}
+
+

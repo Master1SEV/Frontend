@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>ИТ-университет (Frontend)</title>
+    <meta charset="utf-8" />
+    <link async rel="stylesheet" href="assets/css/main.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--[if lt IE 9]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+
+<body>
+    <div class="body">
+        <div class="Form">
+            <div class="container">
+                <form method="POST" action="https://60376bfd5435040017722533.mockapi.io/formRej" id="form">
+                    <div class="text1">Задать вопрос</div>
+                    <div class="nameForm"><input type="text" name="name" pattern="^[А-Яа-яЁё\s]+$" placeholder="  Фамилия Имя Отчество *" /></div>
+                    <div class="mobile"><input type="text" pattern="^((8|\+7)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{7,10}$" name="phone" maxlength="12" placeholder="  Телефон *" /></div>
+                    <div class="email"><input type="text" pattern="^[-\w.]+@([A-z0-9][-A-z0-9]+\.)+[A-z]{2,4}$" name="email" placeholder="  Email" /></div>
+                    <div class="submit"><input id="submit" type="submit" value="ОТПРАВИТЬ ЗАПРОС" /></div>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Scripts -->
+    <script async src="assets/js/jquery.min.js"></script>
+    <script async src="assets/js/jquery.scrolly.min.js"></script>
+    <script async src="assets/js/jquery.scrollzer.min.js"></script>
+    <script async src="assets/js/skel.min.js"></script>
+    <script async src="assets/js/util.js"></script>
+    <script async src="assets/js/main.js"></script>
+</body>
+
+</html>
